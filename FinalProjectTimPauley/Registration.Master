@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Registration.master.cs" Inherits="FinalProjectTimPauley.Registration" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Yukon University</title>
+    <link href="Css/Style.css" rel="stylesheet"" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div class="Header">
+    <div class="logo">
+                <h1>Yukon University</h1>
+    </div>
+    <div class="Menu">
+        <ul>
+            <li><a href="Default.aspx">Home</a></li>
+            <li><a href="Login.aspx" >Login</a></li>
+            <li id="myclass"><a href="MyClasses.aspx">My Classes</a></li>
+            <li><a href="Classes.aspx">Classes</a></li>
+            <li><a href="RegisterForClasses.aspx">Register</a></li>
+            <li><a href="RequestNewLogin.aspx">Request New Login</a></li>
+            <li><a href="Admin.aspx">Admin</a></li>
+        </ul>
+    </div>
+
+</div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
